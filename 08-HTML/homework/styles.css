@@ -1,18 +1,28 @@
 /*reglas*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://www.mcdonalds.com.ar/images/layout/mcdonalds-logo-footer-bg-white.png") center /100% no-repeat;
+    max-width: 600px;
+    margin: 0 auto;
+    }
 #thirDiv {
     height: 600px;
     width: 500px;
     padding: 50px;
     border: 30px dotted green;
-    margin: 20px;
+    margin: 50px;
     }
 #spanId {
     font-size: 18px;
-    margin: 50px;
     }
 img { 
     width:400px;
     }
 h1 {
     color:blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
